@@ -1,4 +1,11 @@
-/* variaveis de cores para o site*/
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
+/* variaveis de cores e texto do site*/
 :root {
 
     --background-primary-color: #ffffff;
@@ -11,12 +18,14 @@
     --text-primary-color: #222222;
     --text-secondary-color: #FFFFFF;
 
+    --title-weight: 700;
+    --text-weight: 400;
+    --menu-text-weight: 500;
 }
 
 /* Reset CSS */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
-
