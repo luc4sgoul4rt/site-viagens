@@ -17,6 +17,11 @@ header {
     margin-top: 24px;
 }
 
+/* "quando o input checkbox estiver selecionado, pega o irmão dele e coloca um display block nele" */
+input[type="checkbox"]:checked ~ nav{
+    display: block;
+}
+
 nav{
     display: none;
 }
