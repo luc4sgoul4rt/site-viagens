@@ -5,6 +5,10 @@
   font-display: swap;
 }
 
+body{
+  font-family: "Montserrat";
+}
+
 /* variaveis de cores e texto do site*/
 :root {
   --background-primary-color: #ffffff;
