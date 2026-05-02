@@ -1,0 +1,24 @@
+{
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.host": "127.0.0.1",
+  "liveServer.settings.root": "/",
+  "liveServer.settings.wait": 200,
+  "liveServer.settings.noCssInject": false,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.headers": {
+    "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0"
+  },
+  "liveServer.settings.ignoreFiles": [
+    ".git/**",
+    "node_modules/**"
+  ],
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  }
+}
