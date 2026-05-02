@@ -1,3 +1,27 @@
+/* variaveis de cores e texto do site*/
+:root {
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #f5f5f5;
+  --background-tertiary-color: #000000;
+
+  --button-primary-color: #8f0101;
+  --button-secondary-color: #b81515;
+
+  --text-primary-color: #222222;
+  --text-secondary-color: #ffffff;
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "Montserrat";
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
@@ -25,26 +49,31 @@ body{
   border: none;
 }
 
-/* variaveis de cores e texto do site*/
-:root {
-  --background-primary-color: #ffffff;
-  --background-secondary-color: #f5f5f5;
-  --background-tertiary-color: #000000;
-
-  --button-primary-color: #8f0101;
-  --button-secondary-color: #b81515;
-
-  --text-primary-color: #222222;
-  --text-secondary-color: #ffffff;
-
-  --title-weight: 700;
-  --text-weight: 400;
-  --menu-text-weight: 500;
+.button{
+  width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+  font-size: 20px;
+  background-color: var(--button-secondary-color);
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px;
 }
 
-/* Reset CSS */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@media screen and (min-width: 768px) {
+
+  .section-title h2{
+    font-size: 32px;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+
+  .button:hover{
+    background-color: var(--button-primary-color);
+  }
+  
 }
